@@ -19,3 +19,5 @@ scrapy startproject test_spyder
 scrapy genspider authors quotes.toscrape.com
 # start some spider
 scrapy crawl name_of_spider
+
+# docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
